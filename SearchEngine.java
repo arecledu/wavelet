@@ -24,7 +24,7 @@ class SearchEngineHandler implements URLHandler {
             if (query[0].equals("s")) {
                 StringBuilder output = new StringBuilder();
                 for (String str : arrayList) {
-                    if (str.contains(query[1])) {}
+                    if (str.contains(query[1])) 
                         output.append(str + " ");
                 }
                 return output.toString();
